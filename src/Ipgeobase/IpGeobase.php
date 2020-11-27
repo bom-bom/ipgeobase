@@ -88,7 +88,7 @@ class IpGeobase {
      */
     public function lookup($ip) {
         if (empty($ip)) {
-            throw new Exception('Ip is not set');
+            throw new \Exception('Ip is not set');
         }
         $this->start();
 
